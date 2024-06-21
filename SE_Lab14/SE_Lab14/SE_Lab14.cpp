@@ -2,29 +2,23 @@
 #include <locale>
 #include <cwchar>
 
-
+#include "Parm.h"
 #include "Error.h"
+#include "Log.h"
 
 int wmain(int argc, wchar_t* argv[]) {
 	setlocale(LC_ALL, "ru");
 	
 	try
 	{
-		throw ERROR_THROW(100);
+	Parm::PARM parm = Parm::getparm(argc, argv);
+	std::wcout << "-in:" << parm.in << ", -out:" << parm.out << ", -log:" << parm.log << std::endl << std::endl;
 	}
 	catch (Error::ERROR e)
 	{
 		std::cout << "Ошибка " << e.id << ": " << e.message << std::endl;
 	}
 
-	try
-	{
-		throw ERROR_THROW_IN(111, 7, 7);
-	}
-	catch (Error::ERROR e)
-	{
-		std::cout << "Ошибка " << e.id << ": " << e.message << ", строка " << e.inext.line << ", позиция " << e.inext.col << std::endl << std::endl;
-	}
 	system("pause");
 	return 0;
 }
