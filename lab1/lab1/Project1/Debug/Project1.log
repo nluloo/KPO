@@ -1,0 +1,26 @@
+﻿Сборка начата 21.06.2024 09:50:05.
+Уровень детализации журнала: Normal.     1>Проект "D:\labs\kpo\1sem\lab1\lab1\Project1\Project1.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Структурированный вывод включен. Форматирование диагностики компилятора будет отражать иерархию ошибок. Подробнее см. https://aka.ms/cpp/structured-output.
+       InitializeBuildStatus:
+         Обращение к "Debug\Project1.tlog\unsuccessfulbuild".
+       ClCompile:
+         D:\Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt Source.cpp
+         Source.cpp
+     1>D:\labs\kpo\1sem\lab1\lab1\Project1\Source.cpp(7,2): error C2059: синтаксическая ошибка: {
+     1>D:\labs\kpo\1sem\lab1\lab1\Project1\Source.cpp(7,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+     1>D:\labs\kpo\1sem\lab1\lab1\Project1\Source.cpp(7,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+     1>Сборка проекта "D:\labs\kpo\1sem\lab1\lab1\Project1\Project1.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\labs\kpo\1sem\lab1\lab1\Project1\Project1.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\labs\kpo\1sem\lab1\lab1\Project1\Source.cpp(7,2): error C2059: синтаксическая ошибка: {
+         D:\labs\kpo\1sem\lab1\lab1\Project1\Source.cpp(7,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+         D:\labs\kpo\1sem\lab1\lab1\Project1\Source.cpp(7,2): error C2143: синтаксическая ошибка: отсутствие ";" перед "}"
+
+    Предупреждений: 0
+    Ошибок: 3
+
+Прошло времени 00:00:00.99
