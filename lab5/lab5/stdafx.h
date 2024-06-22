@@ -11,6 +11,6 @@
 //#define TEST_GETENTRY_05
 //#define TEST_DELENTRY_06
 //#define TEST_UPDENTRY_07
-//#define TEST_UPDENTRY_08
-#define TEST_DICTIONARY
+#define TEST_UPDENTRY_08
+//#define TEST_DICTIONARY
 

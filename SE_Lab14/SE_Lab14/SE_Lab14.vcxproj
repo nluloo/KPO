@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="Error.cpp" />
     <ClCompile Include="In.cpp" />
+    <ClCompile Include="Log.cpp" />
     <ClCompile Include="Parm.cpp" />
     <ClCompile Include="SE_Lab14.cpp" />
   </ItemGroup>

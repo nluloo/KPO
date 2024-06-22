@@ -6,6 +6,8 @@
 #define PARM_OUT_DEFAULT_EXT L".out"
 #define PARM_LOG_DEFAULT_EXT L".log"
 
+
+
 namespace Parm {
 	struct PARM
 	{

@@ -13,10 +13,10 @@ namespace Log {
 
 	static const LOG INITLOG{ L"", NULL };
 	LOG getlog(wchar_t logfile[]);
-	void WrileLine(LOG log, char* c, ...);
-	void WrileLine(LOG log, wchar_t* c, ...);
-	void WrileLog(LOG log);
-	void WrileParm(LOG log, Parm::PARM parm);
+	void WriteLine(LOG log, char* c, ...);
+	void WriteLine(LOG log, wchar_t* c, ...);
+	void WriteLog(LOG log);
+	void WriteParm(LOG log, Parm::PARM parm);
 	void WriteIn(LOG log, In::IN in);
 	void WriteError(LOG log, Error::ERROR error);
 	void Close(LOG log);
